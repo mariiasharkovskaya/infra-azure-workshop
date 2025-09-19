@@ -10,7 +10,8 @@ spec:
   destinations:  
     - namespace: argocd
       server: "*"    # Allow all clusters, or restrict to specific clusters  
-    - namespace: devbcn-demo   
+    - namespace: devbcn-demo  
+      server: "*" 
   clusterResourceWhitelist:  
     - group: "*"  
       kind: "*"  
