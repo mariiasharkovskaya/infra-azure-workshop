@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject  
 metadata:  
   name: default  
-  namespace: mariia-shark-argocd  
+  namespace: argocd  
 spec:  
   description: "Restricted default project - no access allowed"  
   sourceRepos: []  

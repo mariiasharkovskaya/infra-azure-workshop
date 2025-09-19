@@ -6,9 +6,9 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io  
 spec:  
-  project: devbcn-demo                 # warning :)  
+  project: devbcn-demo                
   source:  
-    repoURL: https://github.com/staslebedenko/dev-infrastructure.git  
+    repoURL: https://github.com/staslebedenko/dev-infrastructure.git  #???
     targetRevision: HEAD  
     path: step-4/argo-cd-apps/apps        # parent folder containing child manifests  
   destination:  

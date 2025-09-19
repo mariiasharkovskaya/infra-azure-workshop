@@ -3,7 +3,7 @@ resources:
   - restrict-default-project.yaml
   - project-devbcn-demo.yaml
   
-namespace: mariia-shark-argocd  
+namespace: argocd  
   
 patches:  
   - path: argocd-cm-patch.yaml

@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject  
 metadata:  
   name: common-resources  
-  namespace: mariia-shark-argocd  
+  namespace: argocd  
 spec:  
   description: "Project for common deployments"  
   sourceRepos:  

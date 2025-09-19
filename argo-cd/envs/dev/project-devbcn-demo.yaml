@@ -1,15 +1,16 @@
 apiVersion: argoproj.io/v1alpha1  
 kind: AppProject  
 metadata:  
-  name: devbcn-demo-ms  
-  namespace: mariia-shark-argocd  
+  name: devbcn-demo 
+  namespace: argocd  
 spec:  
   description: "Project for devbcn deployments"  
   sourceRepos:  
     - "*" # Allow all repositories, or specify your Git repos explicitly  
   destinations:  
-    - namespace: mariia-shark-argocd   # Allow all namespaces, or restrict to specific namespaces if needed  'https://your.git.repo/applications.git'
+    - namespace: argocd
       server: "*"    # Allow all clusters, or restrict to specific clusters  
+    - namespace: devbcn-demo   
   clusterResourceWhitelist:  
     - group: "*"  
       kind: "*"  
