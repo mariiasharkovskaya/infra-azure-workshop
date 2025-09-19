@@ -9,7 +9,7 @@ spec:
     - "*" # Allow all repositories, or specify your Git repos explicitly  
   destinations:  
     - namespace: devbcn-demo  
-      server: "*" 
+      server: https://kubernetes.default.svc 
   clusterResourceWhitelist:  
     - group: "*"  
       kind: "*"  

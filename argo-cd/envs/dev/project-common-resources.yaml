@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1  
 kind: AppProject  
 metadata:  
-  name: common-resources  
-  namespace: argocd  
+  name: common-resources 
+  namespace: argocd
 spec:  
   description: "Project for common deployments"  
   sourceRepos:  
     - "*" # Allow all repositories, or specify your Git repos explicitly  
   destinations:  
-    - namespace: "*" # Allow all namespaces, or restrict to specific namespaces if needed  'https://your.git.repo/applications.git'
+    - namespace: "*"
       server: "*"    # Allow all clusters, or restrict to specific clusters  
   clusterResourceWhitelist:  
     - group: "*"  
