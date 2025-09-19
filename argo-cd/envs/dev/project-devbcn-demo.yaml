@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: AppProject  
 metadata:  
   name: devbcn-demo
-  namespace: devbcn-demo  
+  namespace: argocd
 spec:  
   description: "Project for devbcn deployments"  
   sourceRepos:  
