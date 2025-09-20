@@ -13,7 +13,7 @@ spec:
     path: argo-cd-apps/apps
   destination:  
     server: https://kubernetes.default.svc  
-    namespace: devbcn-demo  
+    namespace: argocd  
   syncPolicy:  
     automated:  
       prune: true  
