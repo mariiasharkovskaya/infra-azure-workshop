@@ -8,8 +8,8 @@ spec:
   sourceRepos:  
     - "*" # Allow all repositories, or specify your Git repos explicitly  
   destinations:  
-    - namespace: "*"
-      server: "*"    # Allow all clusters, or restrict to specific clusters  
+    - namespace: argocd
+      server: "*"   
   clusterResourceWhitelist:  
     - group: "*"  
       kind: "*"  
