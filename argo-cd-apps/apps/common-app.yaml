@@ -10,7 +10,7 @@ spec:
   source:  
     repoURL: https://github.com/mariiasharkovskaya/AzureWorkshop.git
     targetRevision: HEAD  
-    path: infrastructure-repo/apps/common/base               # path to app manifest  
+    path: infrastructure-repo/apps/common/base               
   destination:  
     server: https://kubernetes.default.svc  
     namespace: default              

@@ -6,7 +6,7 @@ metadata:
 spec:  
   description: "Project for devbcn deployments"  
   sourceRepos:  
-    - "*" # Allow all repositories, or specify your Git repos explicitly  
+    - "*"
   destinations:  
     - namespace: devbcn-demo  
       server: https://kubernetes.default.svc 
